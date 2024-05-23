@@ -1,0 +1,22 @@
+main {
+    width: 400px;
+    margin: auto;
+}
+
+.jatekTer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.jatekTer div {
+    border: 1px solid gray;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background-color: green;
+    cursor: grab;
+}
+
+.felkapcs {
+    background-color: yellow !important;
+}
